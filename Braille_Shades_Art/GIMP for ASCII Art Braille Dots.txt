@@ -1,0 +1,86 @@
+GIMP for Braille Shades Art
+
+----- ----- ----- ----- -----
+
+Having the image:
+
+GIMP:
+IMG to: 1-Bit Bold Line Art
+
+----- ----- ----- ----- -----
+
+GIMP reset settings (optional):
+
+- Settings:
+ 1. Delete the version number to restore everything to the default settings
+    ~/.config/GIMP/[VERSION.NUMBER]
+ 2. Change language to English
+    Edit > Preferences > Interface > Language > English [en_US]
+ 3. Disable "Show on Start..." from the 'Welcome to GIMP...'
+
+-----
+
+ Basic hotkeys
+
+Space : move through the image
+
+Zoom + : Ctrl + Mouse wheel up or +
+Zoom - : Ctrl + Mouse wheel down or - 
+
+Zoom to original/100%, Scale 1:1):
+1 (key)
+
+Center and fit the entire image to the window:
+Ctrl + Shift + J (View > Zoom > Fit Image in Window)
+
+-----
+
+ 1. Export As... (Shift + Ctrl + E)
+[NAME].png
+
+ 2. Remove transparencies
+Image > Flatten Image
+
+ 2. Crop Tool
+Shift + C
+Enter once adjusted
+
+ 3. Delete selected areas
+Shift + O Fuzzy Select Tool, Shift = Include new areas, Ctrl = remove areas
+or
+Shift + E Erased Tool, with Bursh Hardness 100,0, and custom the Brush Size with something like 50,00
+Stop selecting areas: Shift + Ctrl + A (Select > None)
+or
+H to Healing Tool, Ctrl + Click for select area, then Click
+
+ 4. Black and White
+Image > Mode > Grayscale
+
+ 5. Remove grays close to white
+Colors > Levels...
+Below the 'histogram' there are 3 arrows/triangles; drag the white one on the right towards the center
+Alternative method:
+Use the white eyedropper tool, when you hover over it, it will say "Pick white point for all channels", lick on the desired gray area to remove
+
+ 6. Bold line art
+Filters > Generic > Erode
+It can be repeated with Ctrl + F and undone with Ctrl + Z
+
+ 7. IMG to 1-Bit
+1-Bit color: Colors > Local Threshold...
+
+ 8. Option to IMG to 2-Bit
+Colors > Posterize...
+Posterizer Levels: 4
+Use  5. Remove grays close to white  to adjust the colors
+
+ 9. Make the file smaller by saving only 2 or 4 colors
+Image > Mode > Indexed...
+Colormap > Generate optimum palette > 2 for 1-Bit, 5 for 2-Bit, is 5 because the white also counts
+Dithering > Color dithering: None, other effects is useful for Braille Dots
+
+ 10. Scale Image
+Image > Scale Image...
+Image Size, 1000 px maximum
+Quality, Interpolation: None (so that there are no blurry pixels at the edges)
+

@@ -1,0 +1,30 @@
+==============================
+ [Information platform compatibility status]
+ Mobile App's right-dots only will swap to the left-dots
+ Right-dots only: 0
+==============================
+ [Steam comments section]
+ Cols: 10/43
+ 92/999 bytes
+ Status: [OK]
+==============================
+ [YouTube comments]
+ Cols: 10/32
+
+ Status: [OK]
+==============================
+ [Discord mobile]
+ Cols: 10/34
+
+ Status: [OK]
+==============================
+ [Discord profile] Not allow spaces
+ Cols: 10/26 Lns: 3/3
+ Chars: 32/190
+ Status: [OK]
+==============================
+ [Instagram & WhatsApp]
+ Cols: 10/23
+
+ Status: [OK]
+==============================

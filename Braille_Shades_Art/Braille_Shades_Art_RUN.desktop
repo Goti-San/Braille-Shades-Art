@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Braille Editor
+Comment=Run Braille_Shades_Art.py in the terminal
+Exec=python3 Braille_Shades_Art.py
+Icon=
+Path=
+Terminal=true
+StartupNotify=false
